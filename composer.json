@@ -1,0 +1,26 @@
+{
+    "name": "mikha-dev/dcat-admin-crontab-extension",
+    "description": "crontab extension for dcat-admin",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/ArrowJustDoIt/dcat-admin-crontab-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ArrowJustDoIt",
+            "email": "arrowylq@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "mikha-dev/dcat-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\Crontab\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
